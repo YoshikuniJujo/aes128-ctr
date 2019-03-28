@@ -1,7 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# OPTIONS_GHC -Wall -fno-warn-tabs #-}
 
-module Aes128Ctr (Password, encrypt, decrypt) where
+module Aes128Ctr (Password(..), encrypt, decrypt) where
 
 import Data.String
 
